@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Lato:wght@400;700&display=swap');
+body{
+  margin: 0px;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.isi{
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.jo{
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.yy {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+}
+.size {
+  font-size: 30px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.link{
+  color: blue;
+  text-decoration-line: none;
+}
