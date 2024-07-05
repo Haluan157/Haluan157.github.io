@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Keliling dan Luas</title>
+  <link rel="stylesheet" href="../style.css">
+  <script src="/jquery-3.7.1.min.js"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="../icon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../icon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../icon/favicon-16x16.png">
+<link rel="manifest" href="../icon/site.webmanifest">
+</head>
+<body>
+  <div class="navbar">
+    <a href="../">
+    <img src="../icon.png" alt="hola" height="40px" style="margin-left: 10px;"/>
+    </a><span class="yy size">Math Easy</span>
+  </div>
+  <div class="isi">
+    <h3 class="jo">Keliling dan Luas</h3>
+    <p>Di sini, kamu dapat menentukan keliling dan luas bangun datar tanpa perlu menghitung, cukup masukkan angka saja</p>
+  </div>
+  <div class="hyyy">
+  <div class="kolom">
+    <select name="package" id="fat">
+      <option value="a">Persegi</option>
+      <option>Persegi Panjang</option>
+      <option value="b">Segitiga</option>
+    </select>
+    <!-- Persegi !-->
+    <div class="kolom" id="persegi">
+    <input type="text" class="jaga" id="halo" placeholder="Masukkan panjang sisi">
+    <div class="jaga ah">
+      <button type="button" class="hah" id=hper>Hitung</button>
+    </div>
+    </div>
+    <!-- Persegi Panjang !-->
+    <div class="kolom" id="panjang">
+    <input type="text" class="jaga" id="hal" placeholder="Masukkan panjang">
+    <input type="text" class="jaga" id="hola" placeholder="Masukkan lebar">
+    <div class="jaga ah">
+      <button type="button" class="hah" id="hpan">Hitung</button>
+    </div>
+    </div>
+    <!-- Segitiga Siku-siku -->
+    <div class="kolom" id="segsik">
+      <select name="package" id="jenis">
+        <option value="s1">Segitiga dengan 1 sisi miring</option>
+        <option>Segitiga dengan 2 sisi miring</option>
+      </select>
+    <input type="text" class="jaga alas" placeholder="Masukkan alas">
+    <input type="text" class="jaga tinggi" placeholder="Masukkan tinggi">
+    <div class="jaga ah">
+      <button type="button" class="hah" id="hsegsik">Hitung</button>
+    </div>
+    </div>
+    <div class="jawaban jaga">
+    </div>
+  </div>
+  </div>
+  <script src="cinta.js"></script>
+</body>
+</html>
