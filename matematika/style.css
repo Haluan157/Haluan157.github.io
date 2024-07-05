@@ -1,13 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Lato:wght@400;700&display=swap');
-body{
-  margin: 0px;
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Lato:wght@400;700&display=swap')
+body {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.jaga{
+  margin-top: 10px;
+}
+.hyyy{
+  display: flex;
+  justify-content: center;
+}
+.input{
+  display: flex;
+  justify-content: space-between;
+}
+button{
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+#KPK, #FPB {
+  width: 45%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+input{
+  border-radius: 10px;
+  border: none;
 }
 .navbar{
   display: flex;
   align-items: center;
   border-bottom: 1px solid black;
 }
-.isi{
+.kolom{
+  padding: 10px;
+  display: grid;
+  justify-content: center;
+  background-color: rgb(90,89,89);
+  border-radius: 10px;
+  width: 77%;
+}
+.isi, .kolom{
   margin-left: 10px;
   margin-right: 5px;
 }
@@ -27,7 +61,7 @@ body{
   margin-left: 10px;
   margin-bottom: 5px;
 }
-p, .link {
+p, .link, .kolom>span, .jawaban{
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -35,4 +69,28 @@ p, .link {
 .link{
   color: blue;
   text-decoration-line: none;
+}
+.kolom>span{
+  color: white;
+}
+.jawaban {
+  width: 90%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: none;
+  border-radius: 10px;
+}
+#fat, #jenis {
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+}
+.ah{
+display: flex; 
+justify-content: center;
+}
+.hah{
+  width: 70%;
 }
