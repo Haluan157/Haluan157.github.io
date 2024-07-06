@@ -17,7 +17,7 @@ $("#fat").on('change', function() {
 //Persegi
 $("#hper").click(function(){
       f = Number($("#halo").val())
-      kel = f*f*4
+      kel = f*f*6
       lu = f**3
       $(".jawaban").show().text("Volume = "+ lu+", Luas = "+ kel)
     })
